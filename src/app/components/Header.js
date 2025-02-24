@@ -1,5 +1,4 @@
-import React from 'react'
-import { CgMenuRight } from "react-icons/cg";
+import { RiMenu3Line } from "react-icons/ri";
 import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
 import { BiSolidUserPin } from "react-icons/bi";
@@ -27,7 +26,8 @@ const Header = () => {
         <div className="text-3xl flex items-center gap-3">
         <MdLightMode/>
         {/* <MdDarkMode/> */}
-        <CgMenuRight />
+        <RiMenu3Line />
+
         </div>
 
 
