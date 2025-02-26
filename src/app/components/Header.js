@@ -7,12 +7,9 @@ import { AiFillProject } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { FaBlogger } from "react-icons/fa";
 
-
-
-
-
-
 const Header = () => {
+
+  const areaCalculate = 2342;
   return (
     <div className="lg:">
     <div className="flex lg:hidden justify-between mx-4 my-2 items-center text-black">
