@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
-import BodyContent from "./components/BodyContent";
+import BodyContent from "./components/Bc";
 
 
 
