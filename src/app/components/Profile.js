@@ -8,15 +8,15 @@ import { FaLinkedin,FaFacebookSquare,FaWhatsappSquare,FaGithubSquare,FaInstagram
 const Profile = () => {
   return (
 
-    <div className="rounded-b-xl bg-black pb-3 shadow-md  transform rotate-y-[18deg] lg:w-80 ">
+    <div className="rounded-b-xl rounded-t-md p-2 bg-gray-200 w-60 dark:bg-[#27292d] text-gray-950 dark:text-white pb-3 shadow-md  transform rotate-y-[18deg] lg:w-80 ">
 
-        <img src="/profiler.jpg" alt="Rajendra Chimala" className="rounded-lg"/>
-        <p className="text-center font-semibold text-3xl text-gray-300 mt-2">RAJENDRA CHIMALA</p>
-        <p className="text-center text-gray-300">BICTE 5th Semester</p>
+        <img src="/profiler.jpg" alt="Rajendra Chimala" className="rounded-lg shadow-xl"/>
+        <p className="text-center font-bold text-3xl dark:text-gray-300 mt-2">RAJENDRA CHIMALA</p>
+        <p className="text-center dark:text-gray-300">BICTE 5th Semester</p>
 
         <div>
 
-            <ul className="flex gap-4 text-[25px] justify-center mt-3">
+            <ul className="flex gap-4 text-[25px] dark:text-white justify-center mt-3">
                 <li>
                     <FaLinkedin/>
 

@@ -1,14 +1,19 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
+import BodyContent from "./components/BodyContent";
+
+
 
 export default function Home() {
   return (
    <>
-   <div className="lg:flex lg:items-center lg:h-[100vh]">
+   <div className="lg:flex lg:items-center gap-3 lg:h-[100vh]">
 
    <Header/>
    <Profile/>
+   <BodyContent/>
+   
    </div>
    </>
   );
