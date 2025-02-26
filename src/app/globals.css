@@ -19,3 +19,19 @@ body {
   background: var(--background);
   font-family: poppins;
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Hides scrollbar in IE/Edge */
+  scrollbar-width: none;  /* Hides scrollbar in Firefox */
+}
+
+
+.boxauto{
+  background: #15191c;
+  border-radius: 9px;
+  margin: 3px;
+  padding: 7px;
+}
