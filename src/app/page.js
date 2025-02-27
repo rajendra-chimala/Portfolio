@@ -8,7 +8,7 @@ import BodyContent from "./components/Bc";
 export default function Home() {
   return (
    <>
-   <div className="lg:flex lg:items-center gap-3 lg:h-[100vh]">
+   <div className="lg:flex grid lg:items-center gap-3 lg:h-[100vh]">
 
    <Header/>
    <Profile/>
